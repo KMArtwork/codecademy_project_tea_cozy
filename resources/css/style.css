@@ -1,8 +1,89 @@
 * {
     font-family: Helvetica;
-    font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
+}
+
+header {
+    display: flex;
+    max-height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding-left: 10px;
+}
+
+nav {
+    
+    justify-content: center;
+}
+
+#logo {
+    max-height: 50px;
+    
+}
+
+#mission {
+    max-height: 700px;
+    min-height: 700px;
+    /* background-image: url("img-mission-background.jpg");
+    background-color: aquamarine;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#mission_img {
+    height: 700px;
+}
+
+#mission_blurb {
+    width: 1200px;
+    position: absolute;
+    top: 350px;
+    /*left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+#featured {
+   
+}
+
+#featured_images {
+    max-width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featured_image {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+#locations {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#locations_bg {
+    height: 500px;
+}
+
+#location_flex {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    padding: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
 }

@@ -9,7 +9,7 @@
 
     <body>
         <header>
-            <img src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy logo"/>
+            <img id="logo" src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy logo"/>
             <nav>
                 <a href="#mission">Mission</a>
                 <a href="#featured">Featured Tea</a>
@@ -17,56 +17,77 @@
             </nav>
         </header>
 
-        <section id="mission">
-            <img src="./resources/images/img-mission-background.jpg" alt="Picture of dried tea materials inside of an open glass mason jar"/>
-            <p id="mission_blurb"><h2>Our Mission</h2>
-            Handpicked, Artisnally Curated, Free Range, Sustainable, Small Batch, Fair trade, Organic Tea</p>
-            </section>
 
-        <section id="featured">
-            <h2>Tea of the Month</h2><br>
-            <p>What's Steeping at the Tea Cozy?</p><br>
+         <div id="mission">
+                <img id="mission_img" src="resources/images/img-mission-background.jpg" alt=""/>
+                <div id="mission_blurb">
+                    <h2>Our Mission</h2>
+                    <h4>Handpicked, Artisnally Curated, Free Range, Sustainable, Small Batch, Fair trade, Organic Tea</h4>
+                </div>
+        </div>
+        
+        <div id="featured">
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at the Tea Cozy?</h4><br>
             <div id="featured_images">
-                <img src="./resources/images/img-berryblitz.jpg" alt="cup of hot tea with berries floating in cup" />
-                <img src="./resources/images/img-spiced-rum.jpg" alt="opened crate of packaged tea leaves on a table with some tea leaves sprinkled around it"/>
-                <img src="./resources/images/img-donut.jpg" alt="a donut sitting on a tray with powdered sugar on top"/>
-                <img src="./resources/images/img-myrtle-ave.jpg" alt="will update this later because guide is showing wrong picture"/>
-                <img src="./resources/images/img-bedford-bizarre.jpg" alt="tea cup with red tea on a table with some flowers and an open mason jar of sugar next to it"/>
+                <article>
+                    <img id="featured_image" src="./resources/images/img-berryblitz.jpg" alt="cup of hot tea with berries floating in cup" />
+                    <p>Fall Berry Blitz Tea</p>
+                </article>
+                <article>
+                    <img id="featured_image" src="./resources/images/img-spiced-rum.jpg" alt="opened crate of packaged tea leaves on a table with some tea leaves sprinkled around it"/>
+                    <p>Spiced Rum Tea</p>
+                </article>
+                <article>
+                    <img id="featured_image" src="./resources/images/img-donut.jpg" alt="a donut sitting on a tray with powdered sugar on top"/>
+                    <p>Seasonal Donuts</p>
+                </article>
+                <article>
+                    <img id="featured_image" src="./resources/images/img-myrtle-ave.jpg" alt="will update this later because guide is showing wrong picture"/>
+                    <p>Myrtle Ave Tea</p>
+                </article>
+                <article>
+                    <img id="featured_image" src="./resources/images/img-bedford-bizarre.jpg" alt="tea cup with red tea on a table with some flowers and an open mason jar of sugar next to it"/>
+                    <p>Bedford Bizzare Tea</p>
+                </article>
             </div>
-        </section>
+            <br>
+        </div>
 
-        <section id="locations">
-            <img src="./resources/images/img-locations-background.jpg" alt="tea cup on a table in the foreground with a cozy city blurred in the background"/>
-            <div id="location_a">
-                <h3>Downtown</h3>
-                <p>
-                    <br>348 West 4th St
-                    <br>Suite 108
-                    <br>Portland, Maine
-                </p>
+        <div id="locations">
+            <img id="locations_bg" src="./resources/images/img-locations-background.jpg" alt="tea cup on a table in the foreground with a cozy city blurred in the background"/>
+            <div id="location_flex">
+                <div id="location_a">
+                    <h3>Downtown</h3>
+                    <p>
+                        348 West 4th St
+                        <br>Suite 108
+                        <br>Portland, Maine
+                    </p>
+                </div>
+                <div id="location_b">
+                    <h3>East Bayside</h3>
+                    <p>
+                        3433 Phisherman's Avenue
+                        <br>(Northwest Corner)
+                        <br>Portland, Maine
+                    </p>
+                </div>
+                <div id="location_c">
+                    <h3>Oakdale</h3>
+                    <p>
+                        515 Crescent Avenue
+                        <br>Second Floor
+                        <br>Portland, Maine
+                    </p>
+                </div>
             </div>
-            <div id="location_b">
-                <h3>East Bayside</h3>
-                <p>
-                    <br>3433 Phisherman's Avenue
-                    <br>(Northwest Corner)
-                    <br>Portland, Maine
-                </p>
-            </div>
-            <div id="location_c">
-                <h3>Oakdale</h3>
-                <p>
-                    <br>515 Crescent Avenue
-                    <br>Second Floor
-                    <br>Portland, Maine
-                </p>
-            </div>
-        </section>
+        </div>
     </body>
 
     <section id="contact">
-        <h2>The Tea Cozy</h2><br>
-        <h5>contact@theteacozy.com</h5><br>
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
         <p>917-555-8904</p>
     </section>
 
